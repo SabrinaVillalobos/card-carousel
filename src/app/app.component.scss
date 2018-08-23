@@ -1,0 +1,198 @@
+//Card solo
+
+.card-only {
+    &__card-back {
+      background: #FFFFFF;
+      box-shadow: 0 2px 6px 0 rgba(0,0,0,0.20);
+      border-radius: 8px;
+      display: block;
+      width: 320px;
+      margin: 60px auto;
+      position: relative;
+      text-align: center;
+      padding: 16px;
+    } 
+
+    &__title {
+      display: block;
+      font-weight: 800;
+      font-size: 1.2rem;
+      color:  #3E50B4;
+      letter-spacing: 0;
+    }
+
+    &__icon {
+      &:after {
+        font-family: 'BECH';
+        content: "\e93f";
+        font-size:34px;
+        font-weight:100;
+        color:  #FFBD65;
+        height: 24px;
+        width: 24px;
+        margin-top: -10px;
+        display: block;
+      }
+    }
+
+    &__text {
+      display: block;
+      font-weight: 400;
+      font-size: 1rem;
+      color: #2C3038;
+      letter-spacing: 0;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+}
+
+//Card Credit
+
+.card-credit {
+    &__card-back {
+      background: #FFFFFF;
+      box-shadow: 0 2px 6px 0 rgba(0,0,0,0.20);
+      border-radius: 8px;
+      display: block;
+      height: 195px;
+      width: 312px;
+      margin: 60px auto;
+      position: relative;
+      text-align: left;
+    }
+
+    &__title {
+      border-radius: 5px;
+      display: block;
+      height: 30px;
+      left: 20px;
+      top: 20px;
+      position: absolute;
+      font-weight: 600;
+    }
+
+    &__visa-logo {
+      float: right;
+      display: block;
+      background: url("../assets/visa.png") no-repeat top center;
+      width: 48px;
+      height: 32px;
+      margin-top: 17px;
+      margin-right: 10px;
+    }
+    
+    &__card-number {
+      color:#2C3038;
+      bottom: 122px;
+      font-size: 1rem;
+      font-weight: 600;
+      left: 20px;
+      position: absolute;
+      letter-spacing: 0.28rem;
+    }
+    
+    &__national {
+      color: #2C3038;
+      bottom: 95px;
+      left: 20px;
+      position: absolute;
+      font-weight: 800;
+      font-size: 12px;
+    }
+    
+    &__national.front {
+      left: 190px;
+    }
+    
+    &__inter {
+      color: #2C3038;
+      bottom: 95px;
+      left: 20px;
+      position: absolute;
+      font-weight: 800;
+      font-size: 12px;
+    }
+    
+    &__inter.front {
+      left: 190px;
+    }
+  
+    &__available  {
+      color: #7784CA;
+      bottom: 73px;
+      left: 20px;
+      position: absolute;
+      font-weight: 400;
+      font-size: 12px;
+    }
+    
+    &__available.front {
+      left: 190px;
+    }
+    
+    &__available--inter  {
+      color: #7784CA;
+      bottom: 73px;
+      left: 20px;
+      position: absolute;
+      font-weight: 400;
+      font-size: 12px;
+    }
+    
+    &__available--inter.front {
+      left: 190px;
+    }
+  
+    &__available--number  {
+      color:  #3E50B4;
+      bottom: 52px;
+      left: 20px;
+      position: absolute;
+      font-weight: 800;
+      font-size: 14px;
+    }
+    
+    &__available--number.front {
+      left: 190px;
+    }
+    
+    &__used {
+      color: #7784CA;
+      bottom: 28px;
+      left: 20px;
+      position: absolute;
+      font-weight: 400;
+      font-size: 12px;
+    }
+    
+    &__used.front {
+      left: 190px;
+    }
+  
+    &__used_number {
+      color:  #3E50B4;
+      bottom: 10px;
+      left: 20px;
+      position: absolute;
+      font-weight: 400;
+      font-size: 12px;
+    }
+    
+    &__used_number.front {
+      left: 190px;
+    }
+    
+    &__border-card {
+    -webkit-clip-path: polygon(0 0, 15% 0, 15% 100%, 0% 100%);
+    clip-path: polygon(0 0, 15% 0, 15% 100%, 0% 100%);
+    width: 43px;
+    height: 50px;
+    background: #000000;
+    border-radius: 8px 0 0 0;
+    position: absolute;
+  }
+
+}
+
+
+
